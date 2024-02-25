@@ -10,7 +10,7 @@ import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
 
 classes = ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
-PATH = 'cifar_net.pth'
+PATH = 'cifar_net.pth' # 訓練模型權重存儲的路徑
 
 
 def imshow(img):
